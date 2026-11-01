@@ -1,3 +1,4 @@
+from Pallete_options import palette_options
 def generate_poster():
 
     title_text = input("Enter a title for your poster: ")

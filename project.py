@@ -1,5 +1,6 @@
 import numpy as np
 from ColabTurtlePlus.Turtle import *
+from Tilefunctions import tile_functions
 from Pallete_options import palette_options
 def generate_poster():
 

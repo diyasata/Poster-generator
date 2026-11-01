@@ -679,4 +679,4 @@ def draw_winni_tile(t, x, y, size, rotation, palette, tile_type="center"):
   t.pencolor((0, 0, 0))
 
 
-  tile_functions = [draw_adam_tile, draw_diya_tile, draw_winni_tile]
+tile_functions = [draw_adam_tile, draw_diya_tile, draw_winni_tile]

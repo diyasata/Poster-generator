@@ -1,3 +1,4 @@
+from ColabTurtlePlus.Turtle import *
 from Pallete_options import palette_options
 def generate_poster():
 

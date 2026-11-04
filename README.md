@@ -11,9 +11,9 @@ Users can choose a title, grid dimensions, and a color palette. The program then
 
 ## Group Members
 
-- Adam
-- Winni
-- Diya
+- Adam: Typography & Exhibition Curator 
+- Winni: Coordinate & Grid Architect, Rules & Logic Director
+- Diya: Interaction & Data Engineer 
 
 ## How to Run
 

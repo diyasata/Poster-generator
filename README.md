@@ -30,6 +30,9 @@ from project import generate_poster
 
 generate_poster()
 ```
+Or click below to open an example notebook in Google Colab and generate your own poster!
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IDB1iYWNBHUtvbxoiUcSq-iU45TT1xLB?usp=sharing)
 
 ## Project Files
 

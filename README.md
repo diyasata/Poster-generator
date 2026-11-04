@@ -9,6 +9,14 @@ This project is a generative poster creator made using Python and ColabTurtlePlu
 
 Users can choose a title, grid dimensions, and a color palette. The program then generates a unique poster.
 
+## The Interface
+
+Users may provide input within the poster generator regarding the title of the poster, grid height, grid width, and the name of the color palette they wish to use. 
+
+## How Does it Work?
+
+PalleteOptions.py contains all palettes and contains them into a list. TileFunctions.py contains three different functions that draws an array of different types of border, center, and corner tiles. Project.py pulls from PalleteOptions.py and runs a singular function that uses one color palette and generates a grid comprised of random tiles from each tile function. The poster generation function first asks for the user's input on the poster title, grid height, grid width, and palette before configuring the poster with the aforementioned settings.
+
 ## Group Members
 
 - Adam: Typography & Exhibition Curator 

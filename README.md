@@ -1,4 +1,5 @@
 # Poster Generator
+An example of the generated poster is displayed here:
 ![Generated Poster](poster.svg)
 ## About the Project
 
@@ -34,8 +35,3 @@ generate_poster()
 - `PaletteOptions.py` – Contains the available color palettes.
 - `TileFunctions.py` – Contains the functions used to draw the poster tiles.
 - `requirements.txt` – Lists the required Python library.
-
-## Example Poster
-
-An example of the generated poster will be displayed here.
-![Generated Poster](poster.svg)

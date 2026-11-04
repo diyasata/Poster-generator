@@ -50,8 +50,6 @@ def generate_poster():
     size_vert = (screen_height - vertical_spacing_above - vertical_spacing_below) / nrows
     size = min(size_horiz, size_vert)
 
-    print(size)
-
     # Screen Setup
     clearscreen()
     setup(screen_width, screen_height)

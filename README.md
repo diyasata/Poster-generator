@@ -15,7 +15,7 @@ Users may provide input within the poster generator regarding the title of the p
 
 ## How Does it Work?
 
-PalleteOptions.py contains all palettes and contains them into a list. TileFunctions.py contains three different functions that draws an array of different types of border, center, and corner tiles. Project.py pulls from PalleteOptions.py and runs a singular function that uses one color palette and generates a grid comprised of random tiles from each tile function. The poster generation function first asks for the user's input on the poster title, grid height, grid width, and palette before configuring the poster with the aforementioned settings.
+Pallete_options.py contains all palettes and contains them into a list. Tilefunctions.py contains three different functions that draws an array of different types of border, center, and corner tiles. The python script project.py, pulls from Pallete_options.py and runs a singular function that uses one color palette and generates a grid comprised of random tiles from each tile function. The poster generation function first asks for the user's input on the poster title, grid height, grid width, and palette before configuring the poster with the aforementioned settings.
 
 ## Group Members
 

@@ -1,6 +1,8 @@
 # Poster Generator
 An example of the generated poster is displayed here:
+
 ![Generated Poster](poster.svg)
+
 ## About the Project
 
 This project is a generative poster creator made using Python and ColabTurtlePlus. It creates unique geometric posters using randomly selected tile designs, different grid sizes, and customizable color palettes.

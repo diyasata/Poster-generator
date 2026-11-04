@@ -115,7 +115,7 @@ def generate_poster():
 
     # Draw the color palette colors
     t.penup()
-    t.jumpto(-180, -200)
+    t.jumpto(-145, -200)
 
     for v in palette.values():
         t.color(v, v)

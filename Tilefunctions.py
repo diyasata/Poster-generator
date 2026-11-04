@@ -12,6 +12,7 @@ def draw_adam_tile(t, x, y, size, rotation, palette, tile_type="center"):
   - palette (dict): RGB tuples with keys 'bg', 'primary', 'secondary', 'accent'
   - tile_type (str): "center", "border", or "corner" (defaults to "center")
   """
+
   # ==========================================
   # TURTLE SETUP
   # ==========================================
@@ -110,14 +111,14 @@ def draw_adam_tile(t, x, y, size, rotation, palette, tile_type="center"):
           t.forward(size)
           t.left(90)
           t.forward(quarter)
-          t.left(95)
+          t.left(90)
       t.end_fill()
       t.penup()
 
       t.jumpto(x, y)
       t.setheading(rotation)
       t.pencolor(palette["accent"])
-      t.pensize(2)
+      t.pensize(3)
       t.forward(-half)
       t.pendown()
       t.forward(size)
@@ -134,34 +135,34 @@ def draw_adam_tile(t, x, y, size, rotation, palette, tile_type="center"):
       t.pencolor(palette["secondary"])
       t.jumpto(x, y)
       t.setheading(rotation + 45)
-      t.forward(quarter * 1.2)
+      t.forward(quarter * 1)
       t.left(60)
-      t.forward(quarter * 1.2)
+      t.forward(quarter * 1)
       t.pendown()
       for i in range(4):
           t.left(90)
-          t.forward(half * 1.2)
+          t.forward(half * 1)
       t.left(45)
       t.penup()
 
-      t.forward(half * 1)
+      t.forward(half * 0)
 
       t.color(palette["accent"])
       t.pendown()
       for i in range(5):
-        t.left(144)
-        t.forward(half * 0.2)
+        t.left(90)
+        t.forward(half * .3)
       t.penup()
 
 
       t.color(palette["primary"], palette["primary"])
-      t.setheading(rotation + 60)
+      t.setheading(rotation + 45)
       for i in range(4):
         t.jumpto(x, y)
         t.pendown()
         t.begin_fill()
         for j in range(3):
-            t.forward(quarter * 1.4)
+            t.forward(quarter * 1)
             t.left(90)
         t.end_fill()
         t.penup()

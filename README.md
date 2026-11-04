@@ -38,3 +38,4 @@ generate_poster()
 ## Example Poster
 
 An example of the generated poster will be displayed here.
+![Generated Poster](poster.svg)

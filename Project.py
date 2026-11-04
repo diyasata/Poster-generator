@@ -132,7 +132,7 @@ def generate_poster():
 
         t.setheading(270)
         t.forward(15)
-        t.write(v, align="left")
+        t.write(v, align="Right")
 
         t.setheading(90)
         t.forward(15)

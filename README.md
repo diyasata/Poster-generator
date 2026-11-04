@@ -34,7 +34,7 @@ Copy and run the following code in a Colab notebook:
 %cd Poster-generator
 !pip install -r requirements.txt
 
-from project import generate_poster
+from Project import generate_poster
 
 generate_poster()
 ```
